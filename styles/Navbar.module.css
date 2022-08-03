@@ -1,0 +1,37 @@
+#navbar {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+#nav_logo {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 6em;
+
+}
+
+#nav_links_and_profile {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 6em;
+    font-weight: 200;
+
+}
+
+#nav_links_and_profile a {
+
+    padding-right: 4em;
+
+}
