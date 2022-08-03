@@ -1,0 +1,247 @@
+/* Stylings for 2 components: */
+/*      #1: Cover.js          */
+/*      #2: Layout.js         */
+
+#cover_container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: #4c4c51;
+
+}
+
+#cover_container h1 {
+
+    margin-bottom: 5px;
+
+}
+
+#cover_component_min {
+
+    height: 0px;
+    transition: height 1s;
+
+}
+
+#cover_component_max {
+
+    height: 950px;
+    transition: height 1s;
+
+}
+
+#title_cover_true {
+
+    opacity: 1;
+    transition: opacity 1s;
+    margin-top: 0;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+#title_cover_false {
+
+    opacity: 0;
+    transition: opacity 1s;
+    margin-top: 0;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+#button_cover_true {
+
+    opacity: 1;
+    transition: opacity 0.6s;
+    background-color: #e5301f;
+    color: rgb(255, 225, 225);
+    padding: 15px;
+    border: 0px;
+    font-size: 22px;
+    border-radius: 25px;
+    min-height: 55px;
+    
+}
+
+#button_cover_false {
+
+    opacity: 0;
+    transition: opacity 0.6s;
+    background-color: #e5301f;
+    color: rgb(255, 225, 225);
+    padding: 15px;
+    border: 0px;
+    font-size: 22px;
+    border-radius: 25px;
+    min-height: 55px;
+
+}
+
+/* Animated shapes */
+
+
+@keyframes box_1_move {
+
+    from {
+
+        left: 0;
+        top: 0;
+
+    }
+
+    25% {
+
+        left: 85%;
+        top: 70%;
+
+
+    }
+
+    65% {
+
+        left: 40%;
+        top: 85%;
+
+    }
+
+    to {
+
+
+        left: 0;
+        top: 0;
+    }
+
+}
+
+#box_1_true {
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #e5301f;
+    opacity: 0.4;
+    transition: opacity 1s;
+
+
+    animation-duration: 10s;
+    animation-name: box_1_move;
+    animation-iteration-count: infinite;
+
+}
+
+#box_1_false {
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #e5301f;
+    opacity: 0;
+    transition: opacity 1s;
+
+
+    animation-duration: 10s;
+    animation-name: box_1_move;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes box_2_move {
+
+    from {
+
+        right: 0;
+        top: 20%;
+
+    }
+
+    30% {
+
+        right: 85%;
+        top: 50%;
+
+
+    }
+
+    60% {
+
+        right: 40%;
+        top: 10%;
+
+    }
+
+    to {
+
+
+        right: 0;
+        top: 20%;
+    }
+
+}
+
+#box_2_true {
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #c732f5;
+    opacity: 0.4;
+    border-radius: 40px;
+    transition: opacity 1s;
+
+
+    animation-duration: 10s;
+    animation-name: box_2_move;
+    animation-iteration-count: infinite;
+
+}
+
+#box_2_false {
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #c732f5;
+    opacity: 0;
+    border-radius: 40px;
+    transition: opacity 1s;
+
+
+    animation-duration: 10s;
+    animation-name: box_2_move;
+    animation-iteration-count: infinite;
+
+}
+
+#cover_subtitles_container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100px;
+
+}
+
+#cover_subtitles_container h2 {
+
+    margin-top: 22px;
+    font-size: 35px;
+    position: absolute
+
+}
+
+@media only screen and (max-width: 380px) {
+
+
+    #cover_component_max {
+
+        height: 650px;
+        transition: height 1s;
+    
+    }
+
+}

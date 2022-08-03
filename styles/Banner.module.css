@@ -30,7 +30,7 @@
     line-height: 48px;
     color: #fff;
     font-weight: 400;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 
 }
 
@@ -39,18 +39,83 @@
     font-size: 22px;
     line-height: 28px;
     color: #fff;
-    width: 40%;
+    width: 19em;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
+    margin: 1.5em 0 1.5em 0;
 }
 
 #banner_content button {
 
-    background-color: #ee2d1c;
-    color: white;
+    background-color: #e5301f;
+    color: rgb(255, 225, 225);
     padding: 15px;
     border: 0px;
+    font-size: 22px;
     border-radius: 25px;
+    opacity: 0.95;
+    min-height: 55px;
+    transition: color 0.5s;
 
 }
 
+#banner_content button:hover {
+
+    color: #4c4c51;
+    background-color: #df574b;
+
+}
+
+@media only screen and (max-width: 1432px) {
+    
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+    
+
+}
+
+@media only screen and (max-width: 680px) {
+    
+
+    #banner_content h1 {
+
+        text-align: center;
+        margin-top: 2em;
+
+    }
+
+    #banner_content p {
+
+        width: 90%;
+
+    }
+
+    #banner {
+
+        height: 650px;
+    
+    }
+    
+
+}
+
+@media only screen and (max-width: 380px) {
+    
+
+    #banner_content h1 {
+
+        text-align: center;
+
+    }
+
+    #banner_content p {
+
+        width: 90%;
+
+    }
+    
+
+}

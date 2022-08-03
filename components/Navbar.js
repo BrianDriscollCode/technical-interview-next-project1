@@ -18,7 +18,11 @@ const Navbar = () => {
 
                 <Link href="/account"> Account </Link>
                 <Link href="/help"> Help </Link>
-                <img src="logo.png" /> 
+                <Link href="/profile" id={styles.profile_image}> 
+                    <a id={styles.profile_image}> 
+                        <img src="user.png" width="50" height="50" /> 
+                    </a> 
+                </Link>
 
             </div>
 
