@@ -20,11 +20,17 @@ When deploying the app, I came across errors that do not pop up when using 'npm 
   
 The api returns very random descriptions (uploaded by users). Because of this, formatting for descriptions could be vastly different. The solution I implemented, with time constraints, was to parse through and remove <br /> using a regular expression and to add an "expand description" option depending on description length.
   
+##Success and Failure
+  
+Success - I was able to create a responsive layout and created a cool extra addon with the hero button. Make sure to click it to "see something cool".
+Failure - I wasn't able to write an endpoint and seperate it out like I would using "Node.js". So I included the API call in the home page file. Given more time I could figure this out.
+  
 ## If I had more time 
   
-1. I would add checks for image sizes to change how different image dimensions are handled. Luckily, most are within constraints.
-2. I would parse text and lay it out differently, but due to the nature of vimeo, this would be quite a big task (due to user input randomness).
+1. =Add checks for image sizes to change how different image dimensions are handled. Luckily, most are within constraints.
+2. Parse text and lay it out differently, but due to the nature of vimeo, this would be quite a big task (due to user input randomness).
 3. Add animations when changing through videos using useEffect and setInterval. But because the content is changing instead of being edited through CSS, this would take more forethought (probably stacking, but then loading times may be an issue).
+4. Seperate the API call out of the home page and into its own folder.
   
 ## Conclusion 
   
