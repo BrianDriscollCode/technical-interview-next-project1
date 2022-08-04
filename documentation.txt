@@ -1,1 +1,8 @@
 Challenge #1: Deciding how to handle the layout component when the navbar fits within the banner.
+
+Challenge #2: Deploying app and fixing errors from image components and then using the image element to 
+                make responsive.
+
+Challenge #3: Dealing with different image sizes 
+
+Challenge #4: Formatting text 

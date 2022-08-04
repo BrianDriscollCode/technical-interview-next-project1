@@ -9,7 +9,8 @@ function MyApp({ Component, pageProps }) {
     <Layout> 
 
       <Head>
-        <title> test </title>
+        <title> Best Fakesite Ever! </title>
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <Component {...pageProps} />

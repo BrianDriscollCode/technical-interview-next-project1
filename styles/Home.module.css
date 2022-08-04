@@ -1,5 +1,194 @@
-.container {
+/* Video API Display Section */
 
+#video_section {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 3em auto 6em auto;
+}
+
+#video_section_left {
+
+    width: 50%;
+    padding-right: 8em;
+    color: #4c4c51;
+
+}
+
+#video_section_left h1 {
+
+    font-weight: 400;
+
+
+}
+
+#video_section_right {
+
+    width: 640px;
+    height: 360px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video_description {
+
+    font-size: 18px;
+    color: #88939e;
+
+}
+
+
+
+.expand_description {
+
+    color: #ee2d1c;
+
+}
+
+/* Section 2 Title Section */
+
+
+#section_2_title {
+
+    margin-top: 3em;
+    width: 100%;
+
+}
+
+#section_2_wrapper {
+
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#section_2_wrapper h3 {
+
+    font-size: 35px;
+    color: #4c4c51;
+
+}
+
+#section_2_wrapper p {
+
+    width: 800px;
+    font-size: 22px;
+    margin: 0 auto 0 auto;
+    color: #88939e;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1432px) {
     
-    height: 1500px;
+    #video_section_left {
+
+        padding-right: 4em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    #video_section {
+
+        flex-direction: column;
+        
+    }   
+    
+    #video_section_left {
+
+       margin: 0 auto 3em auto;
+       width: 65%;
+       padding-right: 0;
+      
+    
+    }
+
+    #video_section_right {
+
+       margin: 0 auto 0 auto;
+       width: 65%;
+
+    }
+
+    #section_2_wrapper p {
+
+        width: 80%;
+       
+    
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    #video_section_left {
+
+        width: 85%;
+     
+     }
+ 
+     #video_section_right {
+ 
+        width: 85%;
+ 
+     }
+
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    #video_section_left {
+
+        width: 95%;
+     
+     }
+ 
+     #video_section_right {
+ 
+        width: 400px;
+        height: 225px;
+        
+ 
+     }
+
+}
+
+@media only screen and (max-width: 484px) {
+
+
+    #video_section_right {
+ 
+        width: 307.69px;
+        height: 173.07px;
+        
+ 
+     }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+
+    #video_section_right {
+ 
+        width: 100%;
+        height: auto;
+        
+ 
+     }
+
 }

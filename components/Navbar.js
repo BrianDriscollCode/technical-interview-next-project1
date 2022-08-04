@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -10,7 +11,7 @@ const Navbar = () => {
 
             <div id={styles.nav_logo}>
 
-                <img src="logo.png" />
+                <Image src="/logo.png" alt="temp3" width="50" height="50"/>
 
             </div>
 
@@ -20,7 +21,7 @@ const Navbar = () => {
                 <Link href="/help"> Help </Link>
                 <Link href="/profile" id={styles.profile_image}> 
                     <a id={styles.profile_image}> 
-                        <img src="user.png" width="50" height="50" /> 
+                        <Image src="/user.png" alt="temp2" width="50" height="50" /> 
                     </a> 
                 </Link>
 

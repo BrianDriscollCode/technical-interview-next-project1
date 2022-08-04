@@ -1,0 +1,177 @@
+/* sitemap section */
+
+#sitemap_wrapper {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 80%;
+    margin: 6em auto 0 auto;
+    font-size: 20px;
+
+}
+
+.sitemap_section {
+
+    padding-right: 10em;
+
+}
+
+.sitemap_section h4 {
+
+    color: #ee2d1c;
+    margin-bottom: 0.5em;
+
+}
+
+.sitemap_section ul {
+
+
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.sitemap_section li {
+
+
+    list-style-type: none;
+    color:#88939e;
+
+}
+
+/* Footer section */
+
+#footer_wrapper {
+
+    width: 80%;
+    margin: 6em auto 6em auto;
+
+}
+
+#footer_content_wrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#footer_content_wrapper hr {
+
+    color:#88939e;
+
+}
+
+#left_footer_logo {
+
+    padding-top: 1em;
+}
+
+#right_footer_section {
+
+    display: flex;
+    flex-direction: row;
+    color:#88939e;
+    font-size: 22px;
+
+}
+
+#right_footer_section p {
+
+    padding-left: 2em;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1432px) {
+    
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .sitemap_section {
+
+        padding-right: 5em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+
+}
+
+@media only screen and (max-width: 680px) {
+
+
+    #footer_wrapper {
+
+        margin-top: 3em;
+
+    }
+
+    #sitemap_wrapper {
+
+        justify-content: center;
+    
+    }
+
+    .sitemap_section {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0;
+        width: 50%;
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (max-width: 484px) {
+
+    #footer_content_wrapper {
+
+        flex-direction: column;
+
+    }
+
+    #left_footer_logo {
+
+       display: flex;
+       justify-content: center;
+
+    }
+
+    #right_footer_section {
+
+        justify-content: space-between;
+
+    }
+
+    #right_footer_section p {
+
+        padding-left: 0em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+
+    #right_footer_section {
+
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+}

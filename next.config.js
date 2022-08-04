@@ -4,4 +4,15 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+
+module.exports = {
+
+  nextConfig,
+  images: {
+
+    domains: ['https://vimeo.com', 'i.vimeocdn.com']
+
+  }
+
+
+}

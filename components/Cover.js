@@ -7,9 +7,6 @@ const Cover = ( {toggleCover, expanded} ) => {
     const [subheaderNumber, setSubheaderNumber] = useState(0);
 
     useEffect(() => {
-
-        console.log(subheaderNumber)
-
         const interval = setInterval(() => {
 
             if (subheaderNumber < 2) {
